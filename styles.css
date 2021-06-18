@@ -225,8 +225,25 @@ body {
 
 .stats {
     background: var(--card-background);
-    padding: 20px;
-    margin: 20px;
+    margin: 15px;
+    flex-basis: 210px;
+    min-width: 210px;
+    height: 95px;
+    border-radius: 4px;
+}
+
+.category {
+    display: inline-block;
+    color: var(--text-secondary);
+    font-weight: bold;
+    font-size: 13px;
+    margin: 15px 20px; 
+}
+
+.app-type {
+    display: inline-block;
+    transform: translateX(45px);
+    transform: translateY(5px);
 }
 
 /* DESKTOP STYLES */
