@@ -50,7 +50,7 @@ body {
     background-color: var(--top-background);
     position: absolute;
     width: 100%;
-    height: 100px;
+    height: 300px;
     z-index: -1;
     border-radius: 0 0 15px 15px;
 }
@@ -67,28 +67,29 @@ body {
 
 .current-theme {
     position: absolute;
-    top: 8.5%;
-    left: 67%;
-    color: var(--text-main);
+    top: 63px;
+    right: 155px;
+    color: var(--text-secondary);
+    font-size: 14px;
 }
 
 .toggle-theme {
     position: absolute;
-    top: 10%;
-    left: 80%;
+    top: 70px;
+    right: 90px;
 }
 
 .toggle-btn {
-    width: 70px;
-    height: 30px;
+    width: 45px;
+    height: 20px;
     background-image: linear-gradient(to right, var(--toggle-one), var(--toggle-two));
     border-radius: 30px;
-    padding: 5px;
+    padding: 4px;
 }
 
 .toggle-btn > .inner-circle {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     background: var(--card-background);
     border-radius: 50%;
 }
@@ -103,6 +104,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-bottom: 20px;
 }
 
 .facebook {
@@ -215,6 +217,7 @@ body {
 
 .subheading {
     color: var(--text-main);
+    transform: translateX(10px);
 }
 
 .daily-overview {
@@ -232,18 +235,53 @@ body {
     border-radius: 4px;
 }
 
+.sections {
+    display: flex;
+    justify-content: space-between;
+}
+
 .category {
-    display: inline-block;
     color: var(--text-secondary);
     font-weight: bold;
     font-size: 13px;
-    margin: 15px 20px; 
+    margin: 20px 20px; 
 }
 
 .app-type {
+    margin: 18px 20px;    
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.integer {
+    color: var(--text-main);
+    font-weight: bold;
+    font-size: 22px;
+    margin: 0px 20px 20px 17px;
+}
+
+.up {
+    color: var(--lime-green);
+    margin: 0 18px 20px 0;
+}
+
+.down {
+    color: var(--bright-red);
+    margin: 0 18px 20px 0;
+}
+
+.arrow-stats {
     display: inline-block;
-    transform: translateX(45px);
-    transform: translateY(5px);
+    transform: translateY(-2px);
+}
+
+.percents {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
 }
 
 /* DESKTOP STYLES */
