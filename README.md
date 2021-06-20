@@ -4,7 +4,7 @@
 
 ## The Project
 
-Used CSS, HTML, and vanilla JavaScript to recreate designs, provided by Frontend Mentor, that were in the form of JPG images. I did not have exact numbers, etc. for page elements, so I used my best judgement based on the pictures I was provided.
+Used CSS, HTML, and vanilla JavaScript to recreate designs, provided by Frontend Mentor, that were in the form of JPG images. I did not have exact numbers, etc. for page elements, so I used my best judgement based on the pictures I was provided. Pictures of original design can be found in the design folder.
 
 The goal was to use HTML, CSS and JavaScript to re-create a social media tracker dashboard and implement the option to toggle between a dark mode and a light mode. To implement the theme changes I made use of variables in CSS and used JavaScript to toggle between a dark mode and light mode class in the HTML file.
 
