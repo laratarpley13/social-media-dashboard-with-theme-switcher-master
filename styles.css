@@ -115,7 +115,6 @@ body {
 .main {
     position: absolute;
     top: 200px;
-    margin: 0 70px;
 }
 
 .general-info {
@@ -235,7 +234,7 @@ body {
 
 .subheading {
     color: var(--text-main);
-    transform: translateX(-45px);
+    transform: translateX(25px);
 }
 
 .daily-overview {
