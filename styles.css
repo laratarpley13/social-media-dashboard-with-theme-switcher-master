@@ -387,5 +387,13 @@ body {
     }
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    padding-top: 15px; 
+    padding-bottom: 15px;
+    color: var(--text-main);
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
