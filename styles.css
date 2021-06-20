@@ -234,7 +234,7 @@ body {
 
 .subheading {
     color: var(--text-main);
-    transform: translateX(25px);
+    margin-left: 25px;
 }
 
 .daily-overview {
@@ -373,7 +373,7 @@ body {
 
     .subheading {
         padding-left: 10px;
-        transform: translateX(10px);
+        margin-left: 10px;
     }
 
     .stats {
