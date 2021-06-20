@@ -7,12 +7,13 @@
     --instagram-one: hsl(37, 97%, 70%);
     --instagram-two: hsl(329, 70%, 58%);
     --youtube: hsl(348, 97%, 39%);
+    --toggle-one: hsl(210, 78%, 56%);
+    --toggle-two: hsl(146, 68%, 55%);
+    --toggle-not-active: hsl(230, 22%, 74%);
 }
 
 .dark-mode {
      /* dark theme */
-     --toggle-one: hsl(210, 78%, 56%);
-     --toggle-two: hsl(146, 68%, 55%);
      --background: hsl(230, 17%, 14%);
      --top-background: hsl(232, 19%, 15%);
      --card-background: hsl(228, 28%, 20%);
@@ -22,8 +23,6 @@
 
 .light-mode {
     /* light theme */
-    --toggle-one: hsl(230, 22%, 74%);
-    --toggle-two: hsl(230, 22%, 74%);
     --background: hsl(0, 0%, 100%);
     --top-background: hsl(225, 100%, 98%);
     --card-background: hsl(227, 47%, 96%);
@@ -89,7 +88,7 @@ body {
 .toggle-btn {
     width: 45px;
     height: 20px;
-    background-image: linear-gradient(to right, var(--toggle-one), var(--toggle-two));
+    background: var(--toggle-not-active);
     border-radius: 30px;
     padding: 4px;
     transform: translateY(15px);
@@ -98,8 +97,17 @@ body {
 .toggle-btn > .inner-circle {
     width: 20px;
     height: 20px;
+    margin-left: 25px;
     background: var(--card-background);
     border-radius: 50%;
+}
+
+.toggle-btn.active {
+    background-image: linear-gradient(to right, var(--toggle-one), var(--toggle-two));
+}
+
+.toggle-btn.active > .inner-circle {
+    margin-left: 0;
 }
 
 .main {
